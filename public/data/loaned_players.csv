@@ -1,9 +1,9 @@
-player_name,player_image_url,games_played,mins_played,nb_goals,nb_assists
-Yanis Massolin,https://img.a.transfermarkt.technology/portrait/header/915849-1758100470.png,900000,23,849,1,2
-Kristjan Asllani,https://img.a.transfermarkt.technology/portrait/header/543771-1716969431.jpg,13000000,24,1266,0,0
-Sebastiano Esposito,https://img.a.transfermarkt.technology/portrait/header/538918-1730127469.jpg,9000000,27,1704,4,5
-Ebenezer Ajodun Akinsanmiro,https://img.a.transfermarkt.technology/portrait/header/969192-1692945465.jpg,6500000,17,918,0,1
-Benjamin Jacques Marcel Pavard,https://img.a.transfermarkt.technology/portrait/header/353366-1713819215.jpg,20000000,29,1886,1,2
-Valentin Carboni,https://img.a.transfermarkt.technology/portrait/header/787618-1753072933.jpg,10000000,21,548,1,0
-Tiago Tomas Palacios,https://img.a.transfermarkt.technology/portrait/header/993645-1739282030.jpg,3500000,8,81,0,0
-Franco Ezequiel Carboni,https://img.a.transfermarkt.technology/portrait/header/731491-1675245800.jpg,900000,25,1001,0,1
+player_name,player_image_url,games_played,mins_played,nb_goals,nb_assists,current_club_name
+Yanis Massolin,https://img.a.transfermarkt.technology/portrait/header/915849-1758100470.png,900000,23,849,1,2,Modena
+Kristjan Asllani,https://img.a.transfermarkt.technology/portrait/header/543771-1716969431.jpg,13000000,24,1266,0,0,Besiktas
+Sebastiano Esposito,https://img.a.transfermarkt.technology/portrait/header/538918-1730127469.jpg,9000000,27,1704,4,5,Cagliari
+Ebenezer Ajodun Akinsanmiro,https://img.a.transfermarkt.technology/portrait/header/969192-1692945465.jpg,6500000,17,918,0,1,Pisa
+Benjamin Jacques Marcel Pavard,https://img.a.transfermarkt.technology/portrait/header/353366-1713819215.jpg,20000000,29,1886,1,2,Marseille
+Valentin Carboni,https://img.a.transfermarkt.technology/portrait/header/787618-1753072933.jpg,10000000,21,548,1,0,Racing
+Tiago Tomas Palacios,https://img.a.transfermarkt.technology/portrait/header/993645-1739282030.jpg,3500000,8,81,0,0,Estudiantes LP
+Franco Ezequiel Carboni,https://img.a.transfermarkt.technology/portrait/header/731491-1675245800.jpg,900000,25,1001,0,1,Parma

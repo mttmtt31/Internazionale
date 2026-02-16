@@ -33,7 +33,7 @@ The SWOT quadrants are derived from these z-scores:
 
 ### `loaned_players.csv`
 
-Computed by merging **Opta** data with **Transfermarkt** data. Transfermarkt provides player profile pictures and — critically — identifies which players are currently on loan. A [matching algorithm](https://perf-department.notion.site/Matching-players-across-different-providers-294a95fcfc3280638509dfc3b0e8b8b6) is used to reconcile player identities across the two data sources.
+Computed by merging **Opta** data with **Transfermarkt** data. Transfermarkt provides player profile pictures and — critically — identifies which players are currently on loan, and to which team. Opta provides the full name and the players' stats. Stats cover the full 2025/2026 season, potentially across different clubs if the player was loaned out to multiple clubs. A [matching algorithm](https://perf-department.notion.site/Matching-players-across-different-providers-294a95fcfc3280638509dfc3b0e8b8b6) is used to reconcile player identities across the two data sources.
 
 ### Automatic data refresh
 

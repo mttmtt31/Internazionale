@@ -12,6 +12,7 @@ interface LoanedPlayer {
   minsPlayed: number;
   goals: number;
   assists: number;
+  currentClub: string;
 }
 
 function formatValue(value: number): string {
@@ -36,7 +37,7 @@ export default function LoanedPlayersPage() {
         // Skip header row
         const rows = result.data.slice(1);
         const parsed: LoanedPlayer[] = rows
-          .filter((row) => row.length >= 7)
+          .filter((row) => row.length >= 8)
           .map((row) => ({
             name: row[0],
             imageUrl: row[1],
@@ -45,6 +46,7 @@ export default function LoanedPlayersPage() {
             minsPlayed: parseInt(row[4]) || 0,
             goals: parseInt(row[5]) || 0,
             assists: parseInt(row[6]) || 0,
+            currentClub: row[7],
           }));
 
         setPlayers(parsed);
@@ -63,7 +65,8 @@ export default function LoanedPlayersPage() {
             Loaned Players
           </h1>
           <p className="mt-1 text-sm text-gray-500">
-            Overview of all players currently on loan
+            Overview of all players currently on loan — stats cover the full
+            25/26 season across all clubs
           </p>
         </div>
       </div>
@@ -116,6 +119,9 @@ function PlayerCard({ player }: { player: LoanedPlayer }) {
           <h3 className="truncate text-base font-semibold text-gray-900">
             {player.name}
           </h3>
+          <p className="text-sm text-gray-500">
+            {player.currentClub}
+          </p>
           <p className="text-sm text-inter-gold font-medium">
             {formatValue(player.marketValue)}
           </p>
