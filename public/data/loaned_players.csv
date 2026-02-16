@@ -1,4 +1,4 @@
-player_name,player_image_url,games_played,mins_played,nb_goals,nb_assists,current_club_name
+player_name,player_image_url,market_value,games_played,mins_played,nb_goals,nb_assists,current_club_name
 Yanis Massolin,https://img.a.transfermarkt.technology/portrait/header/915849-1758100470.png,900000,23,849,1,2,Modena
 Kristjan Asllani,https://img.a.transfermarkt.technology/portrait/header/543771-1716969431.jpg,13000000,24,1266,0,0,Besiktas
 Sebastiano Esposito,https://img.a.transfermarkt.technology/portrait/header/538918-1730127469.jpg,9000000,27,1704,4,5,Cagliari
